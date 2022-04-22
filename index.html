@@ -1,0 +1,31 @@
+<style>
+  body {
+    background-color: #5e1286;
+  }
+  .layout {
+    display: flex;
+    flex-direction: column;
+    max-height: 70vh;
+    padding: 20px;
+    position: relative;
+  }
+  .frown {
+    cursor: pointer;
+  }
+  .frown:hover path {
+    d: path('M2 2C150.274 110.451 237.723 112.244 402 2');
+  }
+</style>
+<div class="layout">
+  <svg viewBox="0 0 404 100" fill="none" class="frown">
+    <ellipse cx="99" cy="34" rx="19" ry="34" fill="white" />
+    <ellipse cx="292" cy="34" rx="19" ry="34" fill="white" />
+  </svg>
+  <svg viewBox="0 0 404 87" fill="none" class="frown">
+    <path
+      d="M2 84.0121C150.274 -24.4389 237.723 -26.2322 402 84.0121"
+      stroke="white"
+      stroke-width="4"
+    />
+  </svg>
+</div>
